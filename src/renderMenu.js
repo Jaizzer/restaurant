@@ -4,7 +4,7 @@ export function renderMenu() {
     const content = document.querySelector("#content");
 
     // Create menu container.
-    const menu = document.createElement("menu");
+    const menu = document.createElement("div");
     menu.classList.add("menu");
 
     // Create item selection container.
