@@ -86,7 +86,7 @@ export function renderHome() {
 }
 
 
-class Card {
+export class Card {
 
     // Card contents
     constructor(cardClass, imagePath, heading, description , buttonCaption) {
