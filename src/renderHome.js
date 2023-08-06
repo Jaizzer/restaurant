@@ -10,11 +10,11 @@ import tempura0ImagePath from "./images/tempura-0.png";
 // Render Home Contents.
 export function renderHome() {
 
-    // Delete previous content.
-    deleteCurrentContent();
-
     // Get content div.
     const content = document.querySelector("#content");
+
+    // Delete previous content.
+    deleteCurrentContent(content);
 
     // Array to store all cards.
     let cards = []
