@@ -1,10 +1,8 @@
-// Delete currently loaded  content.
-export function deleteCurrentContent() {
-    // Get 'content' element.
-    const content = document.querySelector("#content");
-
+// Delete currently loaded  content inside 'parent' div.
+export function deleteCurrentContent(parent) {
+   
     // Delete all content's children.
-    while (content.firstChild) {
-        content.firstChild.remove();
+    while (parent.firstChild) {
+        parent.firstChild.remove();
     }
 }
