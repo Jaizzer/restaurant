@@ -1,4 +1,5 @@
 import { deleteCurrentContent } from "./deleteCurrentContent";
+import { showSelection } from "./showSelection";
 export function renderMenu() {
 
     // Access content.
