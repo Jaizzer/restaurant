@@ -9,6 +9,7 @@ export function renderMenu() {
     // Create menu container.
     const menu = document.createElement("div");
     menu.classList.add("menu");
+    content.appendChild(menu);
 
     // Create item selection container.
     const itemSelection = document.createElement('div');
