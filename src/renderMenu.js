@@ -13,7 +13,7 @@ export function renderMenu() {
 
     // Create item selection container.
     const itemSelection = document.createElement('div');
-    menu.classList.add("selection");
+    itemSelection.classList.add("selection");
     menu.appendChild(itemSelection);
 
     // Render dish category buttons that shows corresponding selections when clicked.
