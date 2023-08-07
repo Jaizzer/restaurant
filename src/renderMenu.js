@@ -17,7 +17,7 @@ export function renderMenu() {
     menu.appendChild(itemSelection);
 
     // Render dish category buttons that shows corresponding selections when clicked.
-    const foodCategories = ["Classic", "Dessert", "Drinks", "Ramen", "Rolls", "Sushi and Sashimi", "Salad"];
+    const foodCategories = ["classics", "desserts", "drinks", "ramen", "rolls", "sushiAndSashimi", "salad"];
     foodCategories.forEach(foodCategory => {
 
         // Create button.
