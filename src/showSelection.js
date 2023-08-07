@@ -7,7 +7,7 @@ import { Card } from "./renderHome.js";
  * 
  * Example: showSelection("ramen") will replace currently loaded dishes with ramen dishes in "selection" div.
  * 
- * @param {String} type - The type of food to be rendered.
+ * @param {("classics"|"desserts"|"drinks"|"ramen"|"rolls"|"sushiAndSashimi"|"salad")} type - The type of food to be rendered. Must be one of the specified strings.
  */
 export function showSelection(type) {
 
