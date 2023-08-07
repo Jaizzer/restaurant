@@ -45,7 +45,16 @@ function extractImageDetails(path) {
 
     // Store dish price and name in individual variable.
     const dishName = splittedImageName[0];
-    const dishPrice = splittedImageName[1];
+    let dishPrice;
+
+    // If price was not properly formatted in the image name set it to "Unavailable"
+    if ( (splittedImageName.length === 1) || ([ parseFloat(splittedImageName[1]) ].length !== splittedImageName[1].length) ) {
+        dishPrice = "Unavailable";
+    }
+    // If price was properly formatted convert price from string to float.
+    else {
+        dishPrice = parseFloat(splittedImageName[1]);
+    }
 
     // Return an object containing the extracted information.
     return { fileName, dishName, dishPrice };
