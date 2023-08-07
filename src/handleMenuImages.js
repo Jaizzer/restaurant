@@ -48,7 +48,7 @@ function extractImageDetails(path) {
     let dishPrice;
 
     // If price was not properly formatted in the image name set it to "Unavailable"
-    if ( (splittedImageName.length === 1) || ([ parseFloat(splittedImageName[1]) ].length !== splittedImageName[1].length) ) {
+    if ( (splittedImageName.length === 1) || ( (`${parseFloat(splittedImageName[1])}`).length !== splittedImageName[1].length) ) {
         dishPrice = "Unavailable";
     }
     // If price was properly formatted convert price from string to float.
