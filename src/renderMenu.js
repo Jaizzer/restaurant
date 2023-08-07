@@ -11,6 +11,11 @@ export function renderMenu() {
     menu.classList.add("menu");
     content.appendChild(menu);
 
+    // Create food category buttons container.
+    const buttonContainer = document.createElement("div");
+    buttonContainer.classList.add("category");
+    menu.appendChild(buttonContainer);
+
     // Create item selection container.
     const itemSelection = document.createElement('div');
     itemSelection.classList.add("selection");
@@ -29,6 +34,6 @@ export function renderMenu() {
         button.addEventListener("click", () => showSelection(`${foodCategory}`));
 
         // Append button to the container.
-        menu.appendChild(button);
+        buttonContainer.appendChild(button);
     })
 }
