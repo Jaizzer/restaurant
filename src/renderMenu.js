@@ -1,7 +1,9 @@
+import { deleteCurrentContent } from "./deleteCurrentContent";
 export function renderMenu() {
 
     // Access content.
     const content = document.querySelector("#content");
+    deleteCurrentContent(content);
 
     // Create menu container.
     const menu = document.createElement("div");
