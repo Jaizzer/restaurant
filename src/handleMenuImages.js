@@ -8,8 +8,8 @@
  * ```
  * {
  *    classics: [
- *      { fileName: "pizza_15.jpg", dishName: "pizza", dishPrice: "15" },
- *      { fileName: "burger_12.jpg", dishName: "burger", dishPrice: "12" },
+ *      { fileName: "pizza_15.jpg", dishName: "pizza", dishPrice: "Unavailable" },
+ *      { fileName: "burger_12.jpg", dishName: "burger", dishPrice: 12.56 },
  *    ], // And so on...
  * }
  * ```
