@@ -22,7 +22,8 @@ export function renderMenu() {
 
         // Create button.
         let button = document.createElement("button");
-        button.textContent = `${foodCategory}`;
+        // Add special case for 'sushiAndSashimi'.
+        button.textContent = (foodCategory === "sushiAndSashimi") ? "sushi and sashimi" : `${foodCategory}`;
 
         // Load correesponding dishes base on type/category when clicked.
         button.addEventListener("click", () => showSelection(`${foodCategory}`));
