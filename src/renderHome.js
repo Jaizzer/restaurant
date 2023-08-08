@@ -111,9 +111,13 @@ export class Card {
 
         // Create card image inside 'card'
         if (this.imagePath !== null) {
+            const imageContainer = document.createElement("div");
+            imageContainer.classList.add("image-container");
+            card.appendChild(imageContainer);
+
             const image = new Image();
             image.src = this.imagePath;
-            card.appendChild(image);
+            imageContainer.appendChild(image);
         }
         
         // Create card-copy section inside 'card'.
