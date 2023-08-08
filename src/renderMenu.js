@@ -1,5 +1,5 @@
-import { deleteCurrentContent } from "./deleteCurrentContent";
-import { showSelection } from "./showSelection";
+import { deleteCurrentContent } from "./deleteCurrentContent.js";
+import { showSelection } from "./showSelection.js";
 export function renderMenu() {
 
     // Access content.

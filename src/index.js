@@ -1,5 +1,5 @@
-import { renderHome } from './renderHome';
-import { renderMenu } from './renderMenu';
+import { renderHome } from './renderHome.js';
+import { renderMenu } from './renderMenu.js';
 import './style.css';
 
 // Make home page link access home-page content when clicked.
