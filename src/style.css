@@ -1,17 +1,14 @@
 .image-container {
-    width: 200px; 
-    height: 200px; 
+    width: 200px;
+    height: 200px;
 
     overflow: hidden;
     border-radius: 15px;
-  }
-  
-  .image-container img {
+}
+
+.image-container img {
     width: 100%;
     height: 100%;
 
     object-fit: cover;
-  }
-
-  
-  
+}
