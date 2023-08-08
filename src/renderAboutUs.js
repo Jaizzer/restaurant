@@ -1,7 +1,9 @@
 import { deleteCurrentContent } from "./deleteCurrentContent.js";
 import { Card } from "./createCard.js";
 
+
 export function renderAboutUs() {
+    
     // Get content div.
     const content = document.querySelector("#content");
 
