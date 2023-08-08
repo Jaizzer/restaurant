@@ -1,6 +1,6 @@
 import { deleteCurrentContent } from "./deleteCurrentContent.js";
 import { images } from "./handleMenuImages.js";
-import { Card } from "./renderHome.js";
+import { Card } from "./createCard.js";
 
 /**
  * Loads new cards containing dishes of the specified food "type" inside "selection" div.

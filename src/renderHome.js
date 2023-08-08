@@ -1,4 +1,5 @@
 import { deleteCurrentContent } from "./deleteCurrentContent";
+import { Card } from "./createCard.js";
 import hero0ImagePath from "./images/hero-0.png";
 import sushi0ImagePath from "./images/sushi-0.png";
 import kitchen0ImagePath from "./images/kitchen-0.png";
