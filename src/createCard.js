@@ -42,7 +42,7 @@ export class Card {
         if (this.heading !== null) {
             const heading = document.createElement("div");
             heading.classList.add("heading");
-            heading.textContent = `${this.heading}`;
+            heading.innerHTML = `${this.heading}`;
             copy.appendChild(heading);
         }
 
@@ -50,7 +50,7 @@ export class Card {
         if (this.description !== null) {
             const description = document.createElement("div");
             description.classList.add("description");
-            description.textContent = `${this.description}`;
+            description.innerHTML = `${this.description}`;
             copy.appendChild(description);
         }
 
