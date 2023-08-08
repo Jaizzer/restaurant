@@ -1,3 +1,4 @@
+import { renderAboutUs } from './renderAboutUs.js';
 import { renderHome } from './renderHome.js';
 import { renderMenu } from './renderMenu.js';
 import './style.css';
@@ -9,3 +10,6 @@ home.addEventListener("click", renderHome);
 
 const menu = document.querySelector(".menu");
 menu.addEventListener("click", renderMenu)
+
+const aboutUs = document.querySelector(".about-us");
+aboutUs.addEventListener("click", renderAboutUs)
