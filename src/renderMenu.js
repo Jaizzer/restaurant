@@ -1,4 +1,3 @@
-import { Card } from "./createCard.js";
 import { deleteCurrentContent } from "./deleteCurrentContent";
 import { showSelection } from "./showSelection";
 export function renderMenu() {
