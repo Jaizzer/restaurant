@@ -1,5 +1,5 @@
 import { deleteCurrentContent } from "./deleteCurrentContent.js";
-import { images } from "./handleMenuImages.js";
+import { images } from "./handleImages.js";
 import { Card } from "./createCard.js";
 
 /**
