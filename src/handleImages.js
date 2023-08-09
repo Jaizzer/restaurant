@@ -59,6 +59,12 @@ export const images = {
  * @param {string} path - The base path.
  * @param {string} fileName - The file name to be appended.
  * @returns {string} The concatenated path with the file name.
+ * 
+ * @example
+ * const basePath = '/images/';
+ * const fileName = 'image.jpg';
+ * const fullPath = appendFileNameToPath(basePath, fileName);
+ * console.log(fullPath); // Output: '/images/image.jpg'
  */
 function appendFileNameToPath(path, fileName) {
     return path + fileName;
