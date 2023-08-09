@@ -26,6 +26,18 @@ export const images = {
 
 
 /**
+ * Appends a file name to a given path.
+ * 
+ * @param {string} path - The base path.
+ * @param {string} fileName - The file name to be appended.
+ * @returns {string} The concatenated path with the file name.
+ */
+function appendFileNameToPath(path, fileName) {
+    return path + fileName;
+}
+
+
+/**
  * Parse name of dish, price, and path from the 'path'.
  * Example: /dir1/dir2/images_10.png ====> { fileName: "images_10.png", dishName: "images", dishPrice: "10" }
  * 
