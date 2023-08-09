@@ -19,7 +19,7 @@ export class Card {
 
         // Add optional card class if user provided.
         if (this.cardClass !== null) {
-            card.classList.add(`${this.cardClass}`);
+            card.classList.add(`${this.class}`);
         }
 
         // Create card image inside 'card'
