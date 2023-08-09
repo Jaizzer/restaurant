@@ -1,5 +1,6 @@
 import { renderAboutUs } from './renderAboutUs.js';
 import { renderContactUs } from './renderContactUs.js';
+import { renderGallery } from './renderGallery.js';
 import { renderHome } from './renderHome.js';
 import { renderMenu } from './renderMenu.js';
 import './style.css';
@@ -17,3 +18,6 @@ aboutUs.addEventListener("click", renderAboutUs)
 
 const contact = document.querySelector(".contact");
 contact.addEventListener("click", renderContactUs)
+
+const gallery = document.querySelector(".gallery");
+gallery.addEventListener("click", renderGallery)
