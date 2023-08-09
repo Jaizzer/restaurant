@@ -69,5 +69,5 @@ function extractImageDetails(path) {
     }
 
     // Return an object containing the extracted information.
-    return { fileName, dishName, dishPrice };
+    return { path, dishName, dishPrice };
 }
