@@ -66,8 +66,8 @@ export const images = {
  * const fullPath = appendFileNameToPath(basePath, fileName);
  * console.log(fullPath); // Output: '/images/image.jpg'
  */
-function appendContextPathToMainPath(path, contextPath) {
-    return path + contextPath;
+function appendContextPathToMainPath(mainPath, contextPath) {
+    return mainPath + contextPath;
 }
 
 
