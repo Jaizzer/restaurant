@@ -16,57 +16,68 @@
  */
 export const images = {
     // Fetch image details for the "classics" directory.
-    classics: require.context('./images/menu/classics/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+    classics: 
+        require.context('./images/menu/classics/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
         .map(contextPath => appendContextPathToMainPath('./images/menu/classics', contextPath))
         .map(extractImageDetails),
 
     // Fetch image details for the "desserts" directory.
-    desserts: require.context('./images/menu/desserts/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+    desserts: 
+        require.context('./images/menu/desserts/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
         .map(contextPath => appendContextPathToMainPath('./images/menu/desserts', contextPath))
         .map(extractImageDetails),
 
     // Fetch image details for the "drinks" directory.
-    drinks: require.context('./images/menu/drinks/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+    drinks: 
+        require.context('./images/menu/drinks/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
         .map(contextPath => appendContextPathToMainPath('./images/menu/drinks', contextPath))
         .map(extractImageDetails),
 
     // Fetch image details for the "ramen" directory.
-    ramen: require.context('./images/menu/ramen/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+    ramen: 
+        require.context('./images/menu/ramen/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
         .map(contextPath => appendContextPathToMainPath('./images/menu/ramen', contextPath))
         .map(extractImageDetails),
 
     // Fetch image details for the "rolls" directory.
-    rolls: require.context('./images/menu/rolls/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+    rolls: 
+        require.context('./images/menu/rolls/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
         .map(contextPath => appendContextPathToMainPath('./images/menu/rolls', contextPath))
         .map(extractImageDetails),
 
     // Fetch image details for the "sushi-and-sashimi" directory.
-    sushiAndSashimi: require.context('./images/menu/sushi-and-sashimi/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+    sushiAndSashimi: 
+        require.context('./images/menu/sushi-and-sashimi/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
         .map(contextPath => appendContextPathToMainPath('./images/menu/sushi-and-sashimi', contextPath))
         .map(extractImageDetails),
 
     // Fetch image details for the "salad" directory.
-    salad: require.context('./images/menu/salad/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+    salad: 
+        require.context('./images/menu/salad/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
         .map(contextPath => appendContextPathToMainPath('./images/menu/salad', contextPath))
         .map(extractImageDetails),
 
     // Fetch image details for the "gallery" directory.
-    gallery: require.context('./images/gallery/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+    gallery: 
+        require.context('./images/gallery/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
         .map(contextPath => appendContextPathToMainPath('./images/gallery', contextPath))
         .map(extractImageDetails),
 
     // Fetch image details for the "hero" directory.
-    hero: require.context('./images/hero/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+    hero: 
+        require.context('./images/hero/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
         .map(contextPath => appendContextPathToMainPath('./images/hero', contextPath))
         .map(extractImageDetails),
 
     // Fetch image details for the "about" directory.
-    about: require.context('./images/about/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+    about: 
+        require.context('./images/about/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
         .map(contextPath => appendContextPathToMainPath('./images/about', contextPath))
         .map(extractImageDetails),
 
     // Fetch image details for the "contact" directory.
-    contact: require.context('./images/contact/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+    contact: 
+        require.context('./images/contact/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
         .map(contextPath => appendContextPathToMainPath('./images/contact', contextPath))
         .map(extractImageDetails),
 };
