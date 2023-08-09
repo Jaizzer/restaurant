@@ -18,37 +18,37 @@ export const images = {
     
     classics: 
         require.context('./images/classics/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
-        .map(contextPath => appendFileNameToPath('./images/classics', contextPath))
+        .map(contextPath => appendContextPathToMainPath('./images/classics', contextPath))
         .map(extractImageDetails),
 
     desserts: 
         require.context('./images/desserts/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
-        .map(contextPath => appendFileNameToPath('./images/desserts', contextPath))
+        .map(contextPath => appendContextPathToMainPath('./images/desserts', contextPath))
         .map(extractImageDetails),
 
     drinks: 
         require.context('./images/drinks/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
-        .map(contextPath => appendFileNameToPath('./images/drinks', contextPath))
+        .map(contextPath => appendContextPathToMainPath('./images/drinks', contextPath))
         .map(extractImageDetails),
 
     ramen: 
         require.context('./images/ramen/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
-        .map(contextPath => appendFileNameToPath('./images/ramen', contextPath))
+        .map(contextPath => appendContextPathToMainPath('./images/ramen', contextPath))
         .map(extractImageDetails),
 
     rolls: 
         require.context('./images/rolls/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
-        .map(contextPath => appendFileNameToPath('./images/rolls', contextPath))
+        .map(contextPath => appendContextPathToMainPath('./images/rolls', contextPath))
         .map(extractImageDetails),
 
     sushiAndSashimi: 
         require.context('./images/sushi-and-sashimi/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
-        .map(contextPath => appendFileNameToPath('./images/sushi-and-sashimi', contextPath))
+        .map(contextPath => appendContextPathToMainPath('./images/sushi-and-sashimi', contextPath))
         .map(extractImageDetails),
 
     salad: 
         require.context('./images/salad/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
-        .map(contextPath => appendFileNameToPath('./images/salad', contextPath))
+        .map(contextPath => appendContextPathToMainPath('./images/salad', contextPath))
         .map(extractImageDetails),
 };
 
@@ -66,7 +66,7 @@ export const images = {
  * const fullPath = appendFileNameToPath(basePath, fileName);
  * console.log(fullPath); // Output: '/images/image.jpg'
  */
-function appendFileNameToPath(path, contextPath) {
+function appendContextPathToMainPath(path, contextPath) {
     return path + contextPath;
 }
 
