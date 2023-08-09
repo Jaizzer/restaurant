@@ -67,7 +67,7 @@ export const images = {
  * console.log(fullPath); // Output: '/images/image.jpg'
  */
 function appendContextPathToMainPath(mainPath, contextPath) {
-    return mainPath + contextPath;
+    return mainPath + contextPath.slice(1); // Remove dot from context path before combining to mainPath.
 }
 
 
