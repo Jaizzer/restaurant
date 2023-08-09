@@ -17,7 +17,7 @@ export function showSelection(type) {
     
     // Create and append the cards containing dishes corresponding to "type".
     images[`${type}`].forEach(element => {
-        let dish = new Card("menu-item", element.fileName, element.dishName, element.dishPrice, null);
+        let dish = new Card("menu-item", element.path, element.dishName, element.dishPrice, null);
         selection.appendChild(dish.create());
     });
 }
