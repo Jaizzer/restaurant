@@ -15,13 +15,13 @@
  * ```
  */
 export const images = {
-    classics: require.context('./images/classics/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys().map(extractImageDetails),
-    desserts: require.context('./images/desserts/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys().map(extractImageDetails),
-    drinks: require.context('./images/drinks/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys().map(extractImageDetails),
-    ramen: require.context('./images/ramen/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys().map(extractImageDetails),
-    rolls: require.context('./images/rolls/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys().map(extractImageDetails),
-    sushiAndSashimi: require.context('./images/sushi-and-sashimi/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys().map(extractImageDetails),
-    salad: require.context('./images/salad/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys().map(extractImageDetails),
+    classics: require.context('./images/classics/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys().map(fileName => appendFileNameToPath('./images/classics', fileName)).map(extractImageDetails),
+    desserts: require.context('./images/desserts/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys().map(fileName => appendFileNameToPath('./images/desserts', fileName)).map(extractImageDetails),
+    drinks: require.context('./images/drinks/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys().map(fileName => appendFileNameToPath('./images/drinks', fileName)).map(extractImageDetails),
+    ramen: require.context('./images/ramen/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys().map(fileName => appendFileNameToPath('./images/ramen', fileName)).map(extractImageDetails),
+    rolls: require.context('./images/rolls/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys().map(fileName => appendFileNameToPath('./images/rolls', fileName)).map(extractImageDetails),
+    sushiAndSashimi: require.context('./images/sushi-and-sashimi/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys().map(fileName => appendFileNameToPath('./images/sushi-and-sashimi', fileName)).map(extractImageDetails),
+    salad: require.context('./images/salad/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys().map(fileName => appendFileNameToPath('./images/salad', fileName)).map(extractImageDetails),
 };
 
 
