@@ -50,6 +50,27 @@ export const images = {
         require.context('./images/salad/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
         .map(contextPath => appendContextPathToMainPath('./images/salad', contextPath))
         .map(extractImageDetails),
+
+    gallery: 
+        require.context('./images/gallery/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+        .map(contextPath => appendContextPathToMainPath('./images/gallery', contextPath))
+        .map(extractImageDetails),
+    
+    hero: 
+        require.context('./images/hero/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+        .map(contextPath => appendContextPathToMainPath('./images/hero', contextPath))
+        .map(extractImageDetails),
+    
+    about: 
+        require.context('./images/about/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+        .map(contextPath => appendContextPathToMainPath('./images/about', contextPath))
+        .map(extractImageDetails),
+    
+    contact: 
+        require.context('./images/contact/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+        .map(contextPath => appendContextPathToMainPath('./images/contact', contextPath))
+        .map(extractImageDetails),
+    
 };
 
 
