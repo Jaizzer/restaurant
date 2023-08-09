@@ -17,38 +17,38 @@
 export const images = {
     
     classics: 
-        require.context('./images/classics/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
-        .map(contextPath => appendContextPathToMainPath('./images/classics', contextPath))
+        require.context('./images/menu/classics/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+        .map(contextPath => appendContextPathToMainPath('./images/menu/classics', contextPath))
         .map(extractImageDetails),
 
     desserts: 
-        require.context('./images/desserts/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
-        .map(contextPath => appendContextPathToMainPath('./images/desserts', contextPath))
+        require.context('./images/menu/desserts/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+        .map(contextPath => appendContextPathToMainPath('./images/menu/desserts', contextPath))
         .map(extractImageDetails),
 
     drinks: 
-        require.context('./images/drinks/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
-        .map(contextPath => appendContextPathToMainPath('./images/drinks', contextPath))
+        require.context('./images/menu/drinks/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+        .map(contextPath => appendContextPathToMainPath('./images/menu/drinks', contextPath))
         .map(extractImageDetails),
 
     ramen: 
-        require.context('./images/ramen/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
-        .map(contextPath => appendContextPathToMainPath('./images/ramen', contextPath))
+        require.context('./images/menu/ramen/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+        .map(contextPath => appendContextPathToMainPath('./images/menu/ramen', contextPath))
         .map(extractImageDetails),
 
     rolls: 
-        require.context('./images/rolls/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
-        .map(contextPath => appendContextPathToMainPath('./images/rolls', contextPath))
+        require.context('./images/menu/rolls/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+        .map(contextPath => appendContextPathToMainPath('./images/menu/rolls', contextPath))
         .map(extractImageDetails),
 
     sushiAndSashimi: 
-        require.context('./images/sushi-and-sashimi/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
-        .map(contextPath => appendContextPathToMainPath('./images/sushi-and-sashimi', contextPath))
+        require.context('./images/menu/sushi-and-sashimi/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+        .map(contextPath => appendContextPathToMainPath('./images/menu/sushi-and-sashimi', contextPath))
         .map(extractImageDetails),
 
     salad: 
-        require.context('./images/salad/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
-        .map(contextPath => appendContextPathToMainPath('./images/salad', contextPath))
+        require.context('./images/menu/salad/', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+        .map(contextPath => appendContextPathToMainPath('./images/menu/salad', contextPath))
         .map(extractImageDetails),
 
     gallery: 
