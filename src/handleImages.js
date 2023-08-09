@@ -63,10 +63,10 @@ export const images = {
         .map(contextPath => appendContextPathToMainPath('./images/gallery', contextPath))
         .map(extractImageDetails),
 
-    // Fetch image details for the "hero" directory.
-    hero: 
-        require.context('./images/hero', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
-        .map(contextPath => appendContextPathToMainPath('./images/hero', contextPath))
+    // Fetch image details for the "home" directory.
+    home: 
+        require.context('./images/home', true, /\.(jpg|png|svg|jpeg|gif)$/).keys()
+        .map(contextPath => appendContextPathToMainPath('./images/home', contextPath))
         .map(extractImageDetails),
 
     // Fetch image details for the "about" directory.
