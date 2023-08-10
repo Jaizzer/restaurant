@@ -15,7 +15,7 @@ export function renderAboutUs() {
 
     // Create "Our Story" section.
     let ourStory = new Card(
-        "about-us-section",
+        "about-us",
         "./images/about/our-story.png",
         "Our Story",
         `Welcome to Jaizzer, an authentic Japanese culinary haven. Discover our journey from humble
@@ -27,7 +27,7 @@ export function renderAboutUs() {
 
     // Create "Crafting Culinary Magic" section.
     let culinaryMagic = new Card(
-        "about-us-section",
+        "about-us",
         "./images/about/crafting-culinary-magic.png",
         "Crafting Culinary Magic",
         `Immerse yourself in the realm of Japanese flavors and techniques that grace our menu. Each 
@@ -39,7 +39,7 @@ export function renderAboutUs() {
 
     // Create "Meet the Team" section.
     let meetTheTeam = new Card(
-        "about-us-section",
+        "about-us",
         "./images/about/meet-the-team.png",
         "Meet the Team",
         `Behind every remarkable dish at Jaizzer stands our team of passionate chefs. From our sushi 
@@ -51,7 +51,7 @@ export function renderAboutUs() {
 
     // Create "Soulful Values, Sustainable Future" section.
     let valuesAndFuture = new Card(
-        "about-us-section",
+        "about-us",
         "./images/about/values-and-future.png",
         "Soulful Values, Sustainable Future",
         `At Jaizzer, we believe that every plate tells a story. Our commitment to authenticity and 
@@ -63,7 +63,7 @@ export function renderAboutUs() {
 
     // Create "Journey of Delight" section.
     let journeyOfDelight = new Card(
-        "about-us-section",
+        "about-us",
         "./images/about/journey-of-delight.png",
         "Journey of Delight",
         `Over the years, Jaizzer has carved a path of culinary excellence. From accolades to cherished 
