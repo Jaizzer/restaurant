@@ -86,7 +86,13 @@ body {
 
 .card.home.hero-section {
     grid-template-columns: 1fr;
-    grid-template-rows: 700px auto;
+    grid-template-rows: 700px 200px;
+}
+
+.card.home.hero-section .copy {
+    padding: 0;
+    display: grid;
+    justify-items: center;
 }
 
 .card.home.hero-section .image-container {
