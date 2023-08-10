@@ -18,7 +18,7 @@ export class Card {
         card.classList.add("card");
 
         // Add optional card class if user provided.
-        if (this.cardClass !== null) {
+        if (this.class !== null) {
             card.classList.add(`${this.class}`);
         }
 
