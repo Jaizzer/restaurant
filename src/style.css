@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,100;1,300;1,500&display=swap');
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
 .image-container {
     width: 200px;
     height: 200px;
@@ -33,7 +39,8 @@
 
 #content {
     display: grid;
-    gap: 40px;
+    gap: 60px;
+    padding: 3%;
 }
 
 .card {
