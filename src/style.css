@@ -65,8 +65,8 @@ body {
 }
 
 .card.home .copy {
-    padding-left: 30px;
-    padding-right: 30%;
+    padding-left: 7%;
+    padding-right: 20%;
 
     display: grid;
     grid-template-columns: 1fr;
