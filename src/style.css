@@ -49,7 +49,8 @@ body {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
 }
 
-.card.home {
+.card.home,
+.card.about-us {
     padding: 0;
 
     overflow: hidden;
@@ -58,13 +59,15 @@ body {
     grid-template-columns: auto 1fr;
 }
 
-.card.home .image-container {
+.card.home .image-container,
+.card.about-us .image-container {
     width: 600px;
     height: 490px;
     border-radius: 0;
 }
 
-.card.home .copy {
+.card.home .copy,
+.card.about-us .copy {
     padding-left: 7%;
     padding-right: 20%;
 
@@ -76,12 +79,14 @@ body {
     gap: 15px;
 }
 
-.card.home .heading {
+.card.home .heading,
+.card.about-us .heading {
     font-size: 40px;
     font-weight: 600;
 }
 
-.card.home .description {
+.card.home .description,
+.card.about-us .description {
     font-size: 22px;
 }
 
@@ -118,3 +123,5 @@ body {
     background-color: rgb(218, 36, 36);
     border-color: rgb(218, 36, 36);
 }
+
+
