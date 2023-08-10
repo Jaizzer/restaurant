@@ -16,7 +16,7 @@ export function renderAboutUs() {
     // Create "Our Story" section.
     let ourStory = new Card(
         "about-us-section",
-        null,
+        "./images/about/our-story.png",
         "Our Story",
         `Welcome to Jaizzer, an authentic Japanese culinary haven. Discover our journey from humble
          beginnings to becoming a revered destination for Japanese cuisine enthusiasts. Our commitment 
@@ -28,7 +28,7 @@ export function renderAboutUs() {
     // Create "Crafting Culinary Magic" section.
     let culinaryMagic = new Card(
         "about-us-section",
-        null,
+        "./images/about/crafting-culinary-magic.png",
         "Crafting Culinary Magic",
         `Immerse yourself in the realm of Japanese flavors and techniques that grace our menu. Each 
          dish at Jaizzer is an artistic masterpiece, reflecting our dedication to excellence and a 
@@ -40,7 +40,7 @@ export function renderAboutUs() {
     // Create "Meet the Team" section.
     let meetTheTeam = new Card(
         "about-us-section",
-        null,
+        "./images/about/meet-the-team.png",
         "Meet the Team",
         `Behind every remarkable dish at Jaizzer stands our team of passionate chefs. From our sushi 
          maestros to the creators of our comforting ramen, get to know the artisans who transform fresh 
@@ -52,7 +52,7 @@ export function renderAboutUs() {
     // Create "Soulful Values, Sustainable Future" section.
     let valuesAndFuture = new Card(
         "about-us-section",
-        null,
+        "./images/about/values-and-future.png",
         "Soulful Values, Sustainable Future",
         `At Jaizzer, we believe that every plate tells a story. Our commitment to authenticity and 
          sustainability is reflected in every aspect of our operation. Join us in embracing a mindful 
@@ -64,7 +64,7 @@ export function renderAboutUs() {
     // Create "Journey of Delight" section.
     let journeyOfDelight = new Card(
         "about-us-section",
-        null,
+        "./images/about/journey-of-delight.png",
         "Journey of Delight",
         `Over the years, Jaizzer has carved a path of culinary excellence. From accolades to cherished 
          moments, join us in celebrating the milestones that have shaped our identity and the memories 
