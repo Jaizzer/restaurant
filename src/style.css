@@ -63,3 +63,12 @@ body {
     height: 490px;
     border-radius: 0;
 }
+
+.card.home .copy {
+    padding: 0 30px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
+    align-content: center;
+}
