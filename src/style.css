@@ -78,6 +78,7 @@ body {
 
 .card.home .heading {
     font-size: 40px;
+    font-weight: 600;
 }
 
 .card.home .description {
