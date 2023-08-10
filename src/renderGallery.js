@@ -12,12 +12,12 @@ export function renderGallery() {
     deleteCurrentContent(content);
 
     const gallery = document.createElement("div");
-    gallery.classList.add("gallery2")
+    gallery.classList.add("gallery-container")
     content.appendChild(gallery)
     
     // Create and append the cards containing dishes corresponding to "type".
     images["gallery"].forEach(element => {
-        let dish = new Card("gallery", element.path, null, null, null);
+        let dish = new Card("gallery-item", element.path, null, null, null);
         gallery.appendChild(dish.create());
     });
 }
