@@ -15,7 +15,7 @@ export function renderHome() {
 
     // Create hero section.
     let heroSection = new Card(
-        "hero-section",
+        "home hero-section",
         "./images/home/hero-0.png",
         "Welcome to Jaizzer",
         "Experience the essence of Japan at Jaizzer, where we serve authentic Japanese cuisine crafted with love and passion.",
@@ -25,7 +25,7 @@ export function renderHome() {
 
     // Create food teaser section (tease some of the best dishes). 
     let sushiTeaser = new Card(
-        "food-teaser",
+        "home food-teaser",
         "./images/home/sushi-0.png",
         "Exquisite Sushi Delights",
         "Indulge in the freshest and most delectable sushi dishes prepared by our skilled sushi chefs.",
@@ -35,7 +35,7 @@ export function renderHome() {
 
     // Create kitchen section (show how food is well prepared). 
     let kitchenSection = new Card(
-        "kitchen-section",
+        "home kitchen-section",
         "./images/home/kitchen-0.png",
         "Masterfully Prepared",
         "Our kitchen is where culinary artistry comes to life. Our expert chefs bring out the best flavors in each dish.",
@@ -45,7 +45,7 @@ export function renderHome() {
 
     // Create food teaser section (tease some of the best dishes). 
     let ramenTeaser = new Card(
-        "food-teaser",
+        "home food-teaser",
         "./images/home/ramen-0.png",
         "Hearty Ramen Selection",
         "Savor the rich flavors and comforting warmth of our authentic Japanese ramen bowls.",
@@ -55,7 +55,7 @@ export function renderHome() {
 
     // Create dining section (show how great the ambiance or feel of the actual place). 
     let diningSection = new Card(
-        "dining-section",
+        "home dining-section",
         "./images/home/dining-0.png",
         "A Cozy Dining Experience",
         "Immerse yourself in a cozy and inviting ambiance as you enjoy your culinary journey at Jaizzer.",
@@ -65,7 +65,7 @@ export function renderHome() {
 
     // Create food teaser section (tease some of the best dishes). 
     let tempuraTeaser = new Card(
-        "food-teaser",
+        "home food-teaser",
         "./images/home/tempura-0.png",
         "Tempura Delicacies",
         "Treat yourself to the delightful crispiness of our traditional Japanese tempura dishes.",
