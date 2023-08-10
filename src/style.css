@@ -72,3 +72,11 @@ body {
     justify-items: start;
     align-content: center;
 }
+
+.card.home .heading {
+    font-size: 40px;
+}
+
+.card.home .description {
+    font-size: 25px;
+}
