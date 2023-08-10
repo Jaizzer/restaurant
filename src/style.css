@@ -48,3 +48,12 @@ body {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
 }
+
+.card.home {
+    padding: 0;
+
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
