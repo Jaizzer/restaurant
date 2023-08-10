@@ -72,6 +72,8 @@ body {
     grid-template-columns: 1fr;
     justify-items: start;
     align-content: center;
+
+    gap: 15px;
 }
 
 .card.home .heading {
