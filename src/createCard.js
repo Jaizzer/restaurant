@@ -15,11 +15,10 @@ export class Card {
 
         // Create main container.
         const card = document.createElement("div");
-        card.classList.add("card");
 
         // Add optional card class if user provided.
         if (this.class !== null) {
-            card.classList.add(`${this.class}`);
+            card.className = `card ${this.class}`;
         }
 
         // Create card image inside 'card'
