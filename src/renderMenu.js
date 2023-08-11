@@ -38,4 +38,7 @@ export function renderMenu() {
         // Append button to the container.
         buttonContainer.appendChild(button);
     })
+
+    // Render classic caregory page as default.
+    showSelection("classics");
 }
