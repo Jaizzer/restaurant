@@ -198,6 +198,11 @@ body {
     height: 100%;
 }
 
+#content .menu {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 25px;
+}
 
 .category {
     display: grid;
