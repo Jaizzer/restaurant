@@ -211,6 +211,10 @@ body {
     justify-content: center;
 
     gap: 10px;
+
+    background-color: white;
+    padding: 10px 0;
+    border-radius: 10px;
 }
 
 .category button {
