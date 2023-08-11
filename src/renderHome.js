@@ -17,7 +17,7 @@ export function renderHome() {
     let heroSection = new Card(
         "home hero-section",
         "./images/home/hero-0.png",
-        "Welcome to Jaizzer",
+        "Welcome to <span class='brand-name'>Jaizzer</span>",
         "Experience the essence of Japan at Jaizzer, where we serve authentic Japanese cuisine crafted with love and passion.",
         "Explore Our Menu"
     );
