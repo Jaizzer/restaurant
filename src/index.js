@@ -9,6 +9,10 @@ import './style.css';
 // Load home by defualt.
 window.addEventListener("load", renderHome);
 
+// Make Logo clickable.
+const logo = document.querySelector(".logo");
+logo.addEventListener("click", renderHome);
+
 // Make home page link access home-page content when clicked.
 const home = document.querySelector(".home");
 home.addEventListener("click", renderHome);
