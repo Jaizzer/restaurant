@@ -124,13 +124,15 @@ body {
 }
 
 .card.home .heading,
-.card.about-us .heading {
+.card.about-us .heading,
+.card.contact-us .heading {
     font-size: 40px;
     font-weight: 600;
 }
 
 .card.home .description,
-.card.about-us .description {
+.card.about-us .description, 
+.card.contact-us .description {
     font-size: 22px;
 }
 
@@ -268,4 +270,8 @@ body {
 
 .card.menu-item .description::before {
     content: "$";
+}
+
+.contact-us-section .heading {
+    font-weight: 600;
 }
