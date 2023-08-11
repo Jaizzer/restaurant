@@ -6,6 +6,9 @@ import { renderMenu } from './renderMenu.js';
 import './style.css';
 
 
+// Load home by defualt.
+window.addEventListener("load", renderHome);
+
 // Make home page link access home-page content when clicked.
 const home = document.querySelector(".home");
 home.addEventListener("click", renderHome);
