@@ -203,3 +203,7 @@ body {
 .card.menu-item .heading {
     text-transform: capitalize;
 }
+
+.card.menu-item .description::before {
+    content: "$";
+}
