@@ -141,3 +141,8 @@ body {
 
     border-radius: 15px;
 }
+
+.card.gallery-item:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
