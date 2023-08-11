@@ -44,7 +44,7 @@ body {
 #content {
     display: grid;
     gap: 60px;
-    padding: 3%;
+    padding: 0 3%;
 }
 
 .card {
