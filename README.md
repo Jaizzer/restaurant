@@ -1,5 +1,5 @@
 # Jaizzer Restaurant Template
-At Jaizzer, we understand the significance of an engaging online presence for your restaurant. Our repository is designed to serve as a foundation—a versatile and flexible template that empowers restaurant owners like you to build an impressive website without the complexities of starting from scratch. Whether you're an experienced developer or a newcomer, our template simplifies the process, allowing you to focus on showcasing your culinary delights and unique atmosphere.
+This repository provides a versatile template designed for mockup designs, with the potential for adaptation to actual implementation. If users intend to modify the template for actual implementation, it's important to note that this process will require extensive adjustments to javascript modules and stylesheets inside `src`, and various other components. The template, initially intended for mockup designs, offers the flexibility for adaptation to real-world usage.
 
 This is my own generated website using the template: [Jaizzer Restaurant](https://jaizzer.github.io/jaizzer-restaurant/)
 
