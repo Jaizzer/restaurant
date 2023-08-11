@@ -78,6 +78,7 @@ body {
     display: grid;
     gap: 60px;
     padding: 0 3%;
+    margin-top: 25px;
 }
 
 .card {
