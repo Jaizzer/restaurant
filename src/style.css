@@ -190,3 +190,10 @@ body {
     width: 100%;
     height: 80%;
 }
+
+.card.menu-item .copy {
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
