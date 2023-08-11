@@ -197,3 +197,8 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.card.menu-item .heading {
+    font-weight: 600;
+    text-transform: capitalize;
+}
