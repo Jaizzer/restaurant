@@ -50,6 +50,8 @@ body {
     display: grid;
     grid-template-columns: auto 1fr;
     grid-auto-flow: column;
+
+    background-color: black;
 }
 
 .dashboard .tabs {
