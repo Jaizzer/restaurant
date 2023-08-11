@@ -24,6 +24,8 @@ body {
 }
 
 .dashboard {
+    padding: 0 3%;
+
     display: grid;
     grid-template-columns: auto 1fr;
     grid-auto-flow: column;
