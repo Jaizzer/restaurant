@@ -15,6 +15,18 @@ body {
 
 .logo .brand-name {
     font-family: "Japanese";
+
+    font-size: 35px;
+
+    padding: 0 10px;
+    border-radius: 10px;
+
+    background-color: black;
+    color: white;
+}
+
+.logo .brand-name:hover {
+    background-color: rgb(218, 36, 36);
 }
 
 .image-container {
@@ -130,7 +142,7 @@ body {
     padding: 6px 13px;
 
     background-color: rgb(232, 49, 49);
-    
+
     font-size: 20px;
     color: white;
 
@@ -188,7 +200,7 @@ body {
     padding: 4px 10px;
 
     background-color: rgb(232, 49, 49);
-    
+
     font-size: 16px;
     color: white;
 
