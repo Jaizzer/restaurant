@@ -187,9 +187,11 @@ body {
 }
 
 .card.menu-item {
+    padding: 20px;
+
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .card.menu-item .image-container {
