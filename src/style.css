@@ -165,3 +165,20 @@ body {
 
     gap: 10px;
 }
+
+.category button {
+    padding: 4px 10px;
+
+    background-color: rgb(232, 49, 49);
+    
+    font-size: 16px;
+    color: white;
+
+    border: 1px solid rgb(232, 49, 49);
+    border-radius: 15px;
+}
+
+.category button:hover {
+    background-color: rgb(218, 36, 36);
+    border-color: rgb(218, 36, 36);
+}
