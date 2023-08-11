@@ -1,5 +1,5 @@
 # Jaizzer Restaurant Template
-This repository provides a versatile template designed for mockup designs, with the potential for adaptation to actual implementation. If users intend to modify the template for actual implementation, it's important to note that this process will require extensive adjustments to javascript modules and stylesheets inside `src`, and various other components. The template, initially intended for mockup designs, offers the flexibility for adaptation to real-world usage.
+This repository provides a versatile template designed for mockup designs, with the potential for adaptation to actual implementation. If users intend to modify the template for actual implementation, it's important to note that this process will require extensive adjustments to javascript modules and stylesheets inside `src`, and various other components. The template, initially intended for mockup designs, offers the flexibility for adaptation to real-world usage. Note that the styling of this page in `style.css` inside `src` directory is not responsive to all devices except laptops and desktops
 
 This is my own generated website using the template: [Jaizzer Restaurant](https://jaizzer.github.io/jaizzer-restaurant/)
 
