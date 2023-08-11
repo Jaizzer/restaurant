@@ -45,7 +45,7 @@ body {
 }
 
 .dashboard {
-    padding: 0 3%;
+    padding: 15px 3%;
 
     display: grid;
     grid-template-columns: auto 1fr;
