@@ -4,6 +4,10 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .image-container {
     width: 200px;
     height: 200px;
