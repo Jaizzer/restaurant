@@ -192,4 +192,4 @@ We welcome contributions to enhance and improve this template. If you have ideas
 If you encounter any issues or bugs while using this template, please report them to us at florenzjaizzer.calderon@gmail.com.
 
 ## License
-This template is available under the MIT License.
+This template is available under the [MIT License](LICENSE).
